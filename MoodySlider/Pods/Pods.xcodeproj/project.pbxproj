@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E27A6E7AB4E69A19D620B132FC3DE7 /* SnapLikeCellSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177D8B96C6618D18BD8041625C7083E /* SnapLikeCellSize.swift */; };
+		21BF01DC15A37ED6244412C6882A4958 /* SnapLikeCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B803BCEE6791B2CD5EC35CC14099A5D /* SnapLikeCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49ECD37BC75944318FB0DDED57E28977 /* SnapLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CE566959785E3DE66721D8F5EBFF74 /* SnapLikeCell.swift */; };
+		6CE04F7690FADC789ED2819DBE94AE27 /* Pods-SliderDenemeSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB63757DBD4E67F85901F3CB8F406DF /* Pods-SliderDenemeSON-dummy.m */; };
+		9379C72F144374644A367438E08B0646 /* SnapLikeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95EFB4DB9DB1C111FDEE1A5F04D7D7A /* SnapLikeDataSource.swift */; };
+		998628833A0968BBE91530236F4566F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9AEA797781CCCD5C44BBDE7F60E16203 /* Pods-SliderDenemeSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E8A060AC59A6319A838EB963D3EAA4 /* Pods-SliderDenemeSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B0168E6B8B12D8869474B9E2DF3AB3E /* SnapLikeCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F37E07972A14891CE01BB54D4B4E17CE /* SnapLikeCollectionView-dummy.m */; };
+		E1D0FD4FA061F1C847B1C8A1877966C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F2EB80DEDCA77419B05F657D97DA9FE0 /* SnapLikeCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1C6E8A9B36AE6AD3BFB98B35DFA1D9 /* SnapLikeCollectionViewFlowLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E62224F24FD7237B78ABE4DE51EC12A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72398F702BFC35D3E857ECF477FFDA7;
+			remoteInfo = SnapLikeCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1946F2F4590B1167F22717D20E4F0684 /* Pods-SliderDenemeSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SliderDenemeSON.modulemap"; sourceTree = "<group>"; };
+		2FF021F6DDED74EA0E37111C67F94812 /* SnapLikeCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapLikeCollectionView.framework; path = SnapLikeCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		382DFE0FF2362D0495E42A96CF789923 /* SnapLikeCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapLikeCollectionView-prefix.pch"; sourceTree = "<group>"; };
+		3EB63757DBD4E67F85901F3CB8F406DF /* Pods-SliderDenemeSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SliderDenemeSON-dummy.m"; sourceTree = "<group>"; };
+		4177D8B96C6618D18BD8041625C7083E /* SnapLikeCellSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapLikeCellSize.swift; path = SnapLikeCollectionView/SnapLikeCellSize.swift; sourceTree = "<group>"; };
+		442516997E41D3668A6A357699DA8464 /* Pods-SliderDenemeSON-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SliderDenemeSON-frameworks.sh"; sourceTree = "<group>"; };
+		5B803BCEE6791B2CD5EC35CC14099A5D /* SnapLikeCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapLikeCollectionView-umbrella.h"; sourceTree = "<group>"; };
+		5BFC9043F32E6F0AE315132D2D6DA5A2 /* Pods-SliderDenemeSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SliderDenemeSON.release.xcconfig"; sourceTree = "<group>"; };
+		5C44526742208C1CE301E9AF515C6A9E /* Pods_SliderDenemeSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SliderDenemeSON.framework; path = "Pods-SliderDenemeSON.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84831455C4DA1E160EB714E2578E4523 /* SnapLikeCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapLikeCollectionView.modulemap; sourceTree = "<group>"; };
+		86E8A060AC59A6319A838EB963D3EAA4 /* Pods-SliderDenemeSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SliderDenemeSON-umbrella.h"; sourceTree = "<group>"; };
+		919A7460D41DF774AF20847B43B27B6D /* SnapLikeCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapLikeCollectionView.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABF391A0DE4B2A25CF4450B7788669F6 /* Pods-SliderDenemeSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SliderDenemeSON-Info.plist"; sourceTree = "<group>"; };
+		B8CE566959785E3DE66721D8F5EBFF74 /* SnapLikeCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapLikeCell.swift; path = SnapLikeCollectionView/SnapLikeCell.swift; sourceTree = "<group>"; };
+		D95EFB4DB9DB1C111FDEE1A5F04D7D7A /* SnapLikeDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapLikeDataSource.swift; path = SnapLikeCollectionView/SnapLikeDataSource.swift; sourceTree = "<group>"; };
+		DF65AEC51490FE1FA9205DFB8EF24863 /* Pods-SliderDenemeSON-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SliderDenemeSON-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9FDA65BFCEC20D804194F8B127941A0 /* Pods-SliderDenemeSON-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SliderDenemeSON-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB1C6E8A9B36AE6AD3BFB98B35DFA1D9 /* SnapLikeCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapLikeCollectionViewFlowLayout.swift; path = SnapLikeCollectionView/SnapLikeCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		EE516DFB22C660E7BBD45ED2FAB2D707 /* SnapLikeCollectionView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapLikeCollectionView-Info.plist"; sourceTree = "<group>"; };
+		EEFDCF00DB427388400969D8BF9CB9C6 /* SnapLikeCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapLikeCollectionView.debug.xcconfig; sourceTree = "<group>"; };
+		F2089903FFF4333A5CA9A245E79E7F4D /* Pods-SliderDenemeSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SliderDenemeSON.debug.xcconfig"; sourceTree = "<group>"; };
+		F37E07972A14891CE01BB54D4B4E17CE /* SnapLikeCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapLikeCollectionView-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11D7AEDA98D05A180DA57C5917223821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D0FD4FA061F1C847B1C8A1877966C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D3769604F626CAC8B2E1663CF04FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998628833A0968BBE91530236F4566F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B0BD028BA6B85191AFE22B9F6CC6D0A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30BE272BEEAECFEC877EF264D5782822 /* Pods-SliderDenemeSON */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C43BA69450C34F89F2C0AAD3202C7CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84831455C4DA1E160EB714E2578E4523 /* SnapLikeCollectionView.modulemap */,
+				F37E07972A14891CE01BB54D4B4E17CE /* SnapLikeCollectionView-dummy.m */,
+				EE516DFB22C660E7BBD45ED2FAB2D707 /* SnapLikeCollectionView-Info.plist */,
+				382DFE0FF2362D0495E42A96CF789923 /* SnapLikeCollectionView-prefix.pch */,
+				5B803BCEE6791B2CD5EC35CC14099A5D /* SnapLikeCollectionView-umbrella.h */,
+				EEFDCF00DB427388400969D8BF9CB9C6 /* SnapLikeCollectionView.debug.xcconfig */,
+				919A7460D41DF774AF20847B43B27B6D /* SnapLikeCollectionView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapLikeCollectionView";
+			sourceTree = "<group>";
+		};
+		30BE272BEEAECFEC877EF264D5782822 /* Pods-SliderDenemeSON */ = {
+			isa = PBXGroup;
+			children = (
+				1946F2F4590B1167F22717D20E4F0684 /* Pods-SliderDenemeSON.modulemap */,
+				E9FDA65BFCEC20D804194F8B127941A0 /* Pods-SliderDenemeSON-acknowledgements.markdown */,
+				DF65AEC51490FE1FA9205DFB8EF24863 /* Pods-SliderDenemeSON-acknowledgements.plist */,
+				3EB63757DBD4E67F85901F3CB8F406DF /* Pods-SliderDenemeSON-dummy.m */,
+				442516997E41D3668A6A357699DA8464 /* Pods-SliderDenemeSON-frameworks.sh */,
+				ABF391A0DE4B2A25CF4450B7788669F6 /* Pods-SliderDenemeSON-Info.plist */,
+				86E8A060AC59A6319A838EB963D3EAA4 /* Pods-SliderDenemeSON-umbrella.h */,
+				F2089903FFF4333A5CA9A245E79E7F4D /* Pods-SliderDenemeSON.debug.xcconfig */,
+				5BFC9043F32E6F0AE315132D2D6DA5A2 /* Pods-SliderDenemeSON.release.xcconfig */,
+			);
+			name = "Pods-SliderDenemeSON";
+			path = "Target Support Files/Pods-SliderDenemeSON";
+			sourceTree = "<group>";
+		};
+		502128C691A69377DB0446AD7672EA61 /* SnapLikeCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B8CE566959785E3DE66721D8F5EBFF74 /* SnapLikeCell.swift */,
+				4177D8B96C6618D18BD8041625C7083E /* SnapLikeCellSize.swift */,
+				EB1C6E8A9B36AE6AD3BFB98B35DFA1D9 /* SnapLikeCollectionViewFlowLayout.swift */,
+				D95EFB4DB9DB1C111FDEE1A5F04D7D7A /* SnapLikeDataSource.swift */,
+				1C43BA69450C34F89F2C0AAD3202C7CB /* Support Files */,
+			);
+			name = SnapLikeCollectionView;
+			path = SnapLikeCollectionView;
+			sourceTree = "<group>";
+		};
+		7DCA9C04CA6177B217753AE68FA52E03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C44526742208C1CE301E9AF515C6A9E /* Pods_SliderDenemeSON.framework */,
+				2FF021F6DDED74EA0E37111C67F94812 /* SnapLikeCollectionView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B7C0830B16AB69CB8939BE0382D1405 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				502128C691A69377DB0446AD7672EA61 /* SnapLikeCollectionView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8B7C0830B16AB69CB8939BE0382D1405 /* Pods */,
+				7DCA9C04CA6177B217753AE68FA52E03 /* Products */,
+				0B0BD028BA6B85191AFE22B9F6CC6D0A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		201C89075121F178E5BEE0BA613E0C27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEA797781CCCD5C44BBDE7F60E16203 /* Pods-SliderDenemeSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409F3AF3D85EB0292EFC5D52878D1F81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BF01DC15A37ED6244412C6882A4958 /* SnapLikeCollectionView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2482EF2C1CC56ED352EFA99DC915483 /* Pods-SliderDenemeSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68FFB2A2F5470B565AA0CADD0417B60E /* Build configuration list for PBXNativeTarget "Pods-SliderDenemeSON" */;
+			buildPhases = (
+				201C89075121F178E5BEE0BA613E0C27 /* Headers */,
+				A97D21AECFF0F52808C120D9F8B0D08A /* Sources */,
+				D2D3769604F626CAC8B2E1663CF04FF5 /* Frameworks */,
+				7BF657DDB919AF63E18A8CAA674DAACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE10F9A56722D4A06312AE5B227E34CC /* PBXTargetDependency */,
+			);
+			name = "Pods-SliderDenemeSON";
+			productName = "Pods-SliderDenemeSON";
+			productReference = 5C44526742208C1CE301E9AF515C6A9E /* Pods_SliderDenemeSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F72398F702BFC35D3E857ECF477FFDA7 /* SnapLikeCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC04A48A9E686E85DD4DC6617CF56F8E /* Build configuration list for PBXNativeTarget "SnapLikeCollectionView" */;
+			buildPhases = (
+				409F3AF3D85EB0292EFC5D52878D1F81 /* Headers */,
+				286AE331E0569F7AAFC5CCCC5DDB6C58 /* Sources */,
+				11D7AEDA98D05A180DA57C5917223821 /* Frameworks */,
+				CDB28494050A430EB836FC34CC2783C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapLikeCollectionView;
+			productName = SnapLikeCollectionView;
+			productReference = 2FF021F6DDED74EA0E37111C67F94812 /* SnapLikeCollectionView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7DCA9C04CA6177B217753AE68FA52E03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2482EF2C1CC56ED352EFA99DC915483 /* Pods-SliderDenemeSON */,
+				F72398F702BFC35D3E857ECF477FFDA7 /* SnapLikeCollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BF657DDB919AF63E18A8CAA674DAACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB28494050A430EB836FC34CC2783C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286AE331E0569F7AAFC5CCCC5DDB6C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ECD37BC75944318FB0DDED57E28977 /* SnapLikeCell.swift in Sources */,
+				20E27A6E7AB4E69A19D620B132FC3DE7 /* SnapLikeCellSize.swift in Sources */,
+				9B0168E6B8B12D8869474B9E2DF3AB3E /* SnapLikeCollectionView-dummy.m in Sources */,
+				F2EB80DEDCA77419B05F657D97DA9FE0 /* SnapLikeCollectionViewFlowLayout.swift in Sources */,
+				9379C72F144374644A367438E08B0646 /* SnapLikeDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97D21AECFF0F52808C120D9F8B0D08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE04F7690FADC789ED2819DBE94AE27 /* Pods-SliderDenemeSON-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE10F9A56722D4A06312AE5B227E34CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapLikeCollectionView;
+			target = F72398F702BFC35D3E857ECF477FFDA7 /* SnapLikeCollectionView */;
+			targetProxy = E62224F24FD7237B78ABE4DE51EC12A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6061B22FD67608010DF81A5AC8C1A5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2089903FFF4333A5CA9A245E79E7F4D /* Pods-SliderDenemeSON.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SliderDenemeSON/Pods-SliderDenemeSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SliderDenemeSON/Pods-SliderDenemeSON.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		99106D54A2CB9FBA33A5EA1A13E81240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BFC9043F32E6F0AE315132D2D6DA5A2 /* Pods-SliderDenemeSON.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SliderDenemeSON/Pods-SliderDenemeSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SliderDenemeSON/Pods-SliderDenemeSON.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D378EDBA5C08C772D4783A7D5B3D1551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919A7460D41DF774AF20847B43B27B6D /* SnapLikeCollectionView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapLikeCollectionView/SnapLikeCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapLikeCollectionView/SnapLikeCollectionView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapLikeCollectionView/SnapLikeCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = SnapLikeCollectionView;
+				PRODUCT_NAME = SnapLikeCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F08874C6BA1840379410CB048850FB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEFDCF00DB427388400969D8BF9CB9C6 /* SnapLikeCollectionView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapLikeCollectionView/SnapLikeCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapLikeCollectionView/SnapLikeCollectionView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SnapLikeCollectionView/SnapLikeCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = SnapLikeCollectionView;
+				PRODUCT_NAME = SnapLikeCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68FFB2A2F5470B565AA0CADD0417B60E /* Build configuration list for PBXNativeTarget "Pods-SliderDenemeSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6061B22FD67608010DF81A5AC8C1A5CA /* Debug */,
+				99106D54A2CB9FBA33A5EA1A13E81240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC04A48A9E686E85DD4DC6617CF56F8E /* Build configuration list for PBXNativeTarget "SnapLikeCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08874C6BA1840379410CB048850FB7A /* Debug */,
+				D378EDBA5C08C772D4783A7D5B3D1551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

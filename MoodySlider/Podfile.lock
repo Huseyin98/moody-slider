@@ -1,0 +1,16 @@
+PODS:
+  - SnapLikeCollectionView (1.1.0)
+
+DEPENDENCIES:
+  - SnapLikeCollectionView
+
+SPEC REPOS:
+  trunk:
+    - SnapLikeCollectionView
+
+SPEC CHECKSUMS:
+  SnapLikeCollectionView: b6f46ad57d104f94d91ce78b721afa43fd2b444b
+
+PODFILE CHECKSUM: 4a4e1b32e95b396cea5c9a28774bc8285bc2e21b
+
+COCOAPODS: 1.9.3
